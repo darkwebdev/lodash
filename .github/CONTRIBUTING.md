@@ -1,7 +1,13 @@
+# :construction: Notice :construction:
+
+Pardon the mess. The `master` branch is in flux while we work on Lodash v5. This
+means things like npm scripts, which we encourage using for contributions, may
+not be working. Thank you for your patience.
+
 # Contributing to Lodash
 
 Contributions are always welcome. Before contributing please read the
-[code of conduct](https://jquery.org/conduct/) &
+[code of conduct](https://js.foundation/community/code-of-conduct) &
 [search the issue tracker](https://github.com/lodash/lodash/issues); your issue
 may have already been discussed or fixed in `master`. To contribute,
 [fork](https://help.github.com/articles/fork-a-repo/) Lodash, commit your changes,
@@ -31,9 +37,9 @@ Run unit tests from the command-line via `npm test`, or open `test/index.html` &
 
 ## Contributor License Agreement
 
-Lodash is a member of the [jQuery Foundation](https://jquery.org/).
-As such, we request that all contributors sign the jQuery Foundation
-[contributor license agreement (CLA)](https://contribute.jquery.org/CLA/).
+Lodash is a member of the [JS Foundation](https://js.foundation/).
+As such, we request that all contributors sign the JS Foundation
+[contributor license agreement (CLA)](https://js.foundation/CLA/).
 
 For more information about CLAs, please check out Alex Russell’s excellent post,
 [“Why Do I Need to Sign This?”](https://infrequently.org/2008/06/why-do-i-need-to-sign-this/).
@@ -61,7 +67,7 @@ established in the code.
   [JSDoc-style](http://www.2ality.com/2011/08/jsdoc-intro.html) comments for
   functions.
 
-Guidelines are enforced using [JSCS](https://www.npmjs.com/package/jscs):
+Guidelines are enforced using [ESLint](https://www.npmjs.com/package/eslint):
 ```bash
 $ npm run style
 ```
