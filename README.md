@@ -9,7 +9,7 @@
 [Twitter](https://twitter.com/bestiejs) |
 [Chat](https://gitter.im/lodash/lodash)
 
-The [Lodash](https://lodash.com/) library exported as a Node module omitting any outdated exports like AMD (which are incompatible with Lasso bundler).
+The [Lodash](https://lodash.com/) library exported as a Node module omitting any outdated exports like AMD (which are incompatible with [Lasso](https://github.com/lasso-js/lasso) bundler).
 
 Generated using [lodash-cli](https://www.npmjs.com/package/lodash-cli):
 ```shell
