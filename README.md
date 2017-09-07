@@ -9,35 +9,26 @@
 [Twitter](https://twitter.com/bestiejs) |
 [Chat](https://gitter.im/lodash/lodash)
 
-The [Lodash](https://lodash.com/) library exported as a [UMD](https://github.com/umdjs/umd) module.
+The [Lodash](https://lodash.com/) library exported as a Node module omitting any outdated exports like AMD (which are incompatible with Lasso bundler).
 
 Generated using [lodash-cli](https://www.npmjs.com/package/lodash-cli):
 ```shell
-$ npm run build
-$ lodash -o ./dist/lodash.js
-$ lodash core -o ./dist/lodash.core.js
+$ lodash exports=node -o lodash.js
 ```
-
-## Download
-
- * [Core build](https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.core.js) ([~4 kB gzipped](https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.core.min.js))
- * [Full build](https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.js) ([~24 kB gzipped](https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.min.js))
- * [CDN copies](https://www.jsdelivr.com/projects/lodash)
 
 Lodash is released under the [MIT license](https://raw.githubusercontent.com/lodash/lodash/4.17.4/LICENSE) & supports modern environments.<br>
 Review the [build differences](https://github.com/lodash/lodash/wiki/build-differences) & pick one that’s right for you.
 
 ## Installation
 
-In a browser:
-```html
-<script src="lodash.js"></script>
+Using yarn:
+```shell
+$ yarn add lodash-lasso
 ```
 
 Using npm:
 ```shell
-$ npm i -g npm
-$ npm i --save lodash
+$ npm i --save lodash-lasso
 ```
 
 In Node.js:
